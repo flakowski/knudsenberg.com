@@ -26,7 +26,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={inter.variable}>
-      <body className="bg-[#0d1b2a] text-[#f0f4f8] min-h-screen antialiased">
+      <body className="bg-black text-[#f0f4f8] min-h-screen antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

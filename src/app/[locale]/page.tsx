@@ -39,7 +39,7 @@ export default function HomePage() {
         </section>
 
         {/* Services */}
-        <section className="py-24 px-6 bg-[#142232]">
+        <section className="py-24 px-6 bg-black">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">{t('hero.whatWeDo')}</p>
@@ -47,7 +47,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-3 gap-0 border border-[#1e3348]">
               {services.map(({ key, icon }) => (
-                <div key={key} className="p-8 border-b md:border-b-0 md:border-r border-[#1e3348] last:border-0 hover:bg-[#1a2e42] transition-colors">
+                <div key={key} className="p-8 border-b md:border-b-0 md:border-r border-[#1e3348] last:border-0 hover:bg-[#111111] transition-colors">
                   <p className="text-[#c9a84c] text-2xl mb-4">{icon}</p>
                   <h3 className="text-[#f0f4f8] font-semibold text-sm tracking-wider uppercase mb-3">
                     {t(`services.${key}`)}

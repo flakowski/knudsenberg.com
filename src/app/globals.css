@@ -19,13 +19,13 @@
 :root {
   --background: #000000;
   --foreground: #f0f4f8;
-  --card: #142232;
+  --card: #0a0a0a;
   --card-foreground: #f0f4f8;
   --primary: #c9a84c;
   --primary-foreground: #0d1b2a;
-  --muted: #1a2e42;
+  --muted: #111111;
   --muted-foreground: #7a94ab;
-  --border: #1e3348;
+  --border: #222222;
   --ring: #c9a84c;
   --radius: 0.125rem;
 }

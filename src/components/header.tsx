@@ -20,7 +20,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e3348] bg-[#0d1b2a]/95 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e3348] bg-black/95 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-lg font-semibold tracking-wider text-[#c9a84c] uppercase">
           Knudsen &amp; Berg
@@ -46,7 +46,7 @@ export default function Header() {
         </button>
       </div>
       {open && (
-        <div className="md:hidden border-t border-[#1e3348] bg-[#0d1b2a] px-6 py-4 flex flex-col gap-4">
+        <div className="md:hidden border-t border-[#1e3348] bg-black px-6 py-4 flex flex-col gap-4">
           {links.map(l => (
             <Link key={l.href} href={l.href} className="text-xs tracking-widest uppercase" onClick={() => setOpen(false)}>{l.label}</Link>
           ))}
