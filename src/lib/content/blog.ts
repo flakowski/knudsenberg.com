@@ -6,6 +6,7 @@ export interface BlogPost {
   body: string;
   date: string;
   language: string;
+  image?: string;
 }
 
 const allPosts: BlogPost[] = [
@@ -121,6 +122,7 @@ Knudsen & Berg leinas ja saadame oma mõtted ning palved tema perele.`,
     slug: 'end-of-quarter-party',
     language: 'en',
     date: '2021-09-02',
+    image: '/images/Bilde til nettside.jpg',
     title: 'End of quarter party!',
     excerpt: '8% higher than we had projected! I think we deserve a little party, right?',
     body: `I am currently sitting on the office floor and working hard (or hardly working, am I right?). Just a few hours more until the weekend!
@@ -134,6 +136,7 @@ As always, Knudsen & Berg delivers staggering figures in its quarterly reports, 
     slug: 'kvartalfest',
     language: 'no',
     date: '2021-09-02',
+    image: '/images/banner til nettside.jpg',
     title: 'Kvartalfest!',
     excerpt: '8 % høyere enn vi hadde anslått! Jeg tror vi fortjener litt fest, ikke sant?',
     body: `Jeg sitter for øyeblikket på kontoret og jobber hardt (eller jobber knapt, stemmer det?). Bare noen timer til helgen!

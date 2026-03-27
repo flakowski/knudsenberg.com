@@ -1,13 +1,10 @@
-import { useTranslations, useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import { getPostBySlug, getAllSlugs, getPostsByLocale } from '@/lib/content/blog';
+import { getPostBySlug } from '@/lib/content/blog';
 
-export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function BlogPostPage({
   params,
@@ -29,16 +26,25 @@ export default async function BlogPostPage({
             </Link>
           </div>
           <article>
-            <header className="mb-8 pb-8 border-b border-[#1e3348]">
+            <header className="mb-8 pb-8 border-b border-[#222222]">
               <p className="text-[#7a94ab] text-xs mb-4">
                 {new Date(post.date).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' })}
               </p>
               <h1 className="text-3xl font-semibold text-[#f0f4f8] mb-4">{post.title}</h1>
               <div className="w-12 h-0.5 bg-[#c9a84c]" />
             </header>
-            <div className="prose prose-invert max-w-none">
+            {post.image && (
+              <div className="mb-8">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full max-h-80 object-cover"
+                />
+              </div>
+            )}
+            <div className="space-y-4">
               {post.body.split('\n\n').map((para, i) => (
-                <p key={i} className="text-[#7a94ab] leading-relaxed mb-4 text-sm">{para}</p>
+                <p key={i} className="text-[#7a94ab] leading-relaxed text-sm">{para}</p>
               ))}
             </div>
           </article>
