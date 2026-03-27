@@ -18,11 +18,6 @@ export default function HomePage() {
       <main>
         {/* Hero */}
         <section className="relative min-h-screen flex items-center px-6 pt-20">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0d1b2a] via-[#0d1b2a]/90 to-transparent" />
-          <div
-            className="absolute inset-0 bg-cover bg-center opacity-15"
-            style={{ backgroundImage: "url('/images/canstockphoto11314762.jpg')" }}
-          />
           <div className="relative z-10 max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-6">Knudsen &amp; Berg AS</p>
