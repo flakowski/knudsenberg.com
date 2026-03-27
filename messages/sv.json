@@ -1,0 +1,19 @@
+{
+  "nav": { "home": "Hem", "blog": "Blogg", "about": "Om oss", "career": "Karriär" },
+  "hero": { "tagline": "Vi skapar värde genom aktivt ägarskap", "whatWeDo": "Vad gör vi?", "exceed": "Vi överträffar dina förväntningar" },
+  "services": {
+    "strategic": "Strategisk planering",
+    "strategicDesc": "Vi analyserar marknadskrafter för att förbli relevanta och konkurrenskraftiga i finansvärldens snabba tempo.",
+    "investment": "Långsiktig och ansvarsfull investering",
+    "investmentDesc": "Med många års erfarenhet har våra experter kompetensen att ta ditt företag till nästa nivå.",
+    "consulting": "Konsulttjänster",
+    "consultingDesc": "Behöver du hjälp med finansiering? Låt oss hjälpa dig med djärva val och insiktsfulla beslut."
+  },
+  "about": {
+    "title": "Om Knudsen & Berg",
+    "text": "Knudsen & Berg grundades 2012 av Jens Knudsen och Øyvind Berg. Sedan 2012 har vi hjälpt företag av alla storlekar att anpassa sig till branschtransitioner för att förbli konkurrenskraftiga."
+  },
+  "career": { "title": "Karriär", "noOpenings": "Inga lediga tjänster för tillfället." },
+  "blog": { "title": "Blogg", "readMore": "Läs mer", "published": "Publicerad" },
+  "footer": { "rights": "Alla rättigheter förbehållna" }
+}

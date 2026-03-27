@@ -1,0 +1,19 @@
+{
+  "nav": { "home": "Home", "blog": "Blog", "about": "Chi siamo", "career": "Carriera" },
+  "hero": { "tagline": "Creiamo valore attraverso la proprietà attiva", "whatWeDo": "Cosa facciamo?", "exceed": "Superiamo le tue aspettative" },
+  "services": {
+    "strategic": "Pianificazione strategica",
+    "strategicDesc": "Analizziamo le forze di mercato per rimanere rilevanti e competitivi nel mondo della finanza.",
+    "investment": "Investimento a lungo termine e responsabile",
+    "investmentDesc": "Con anni di esperienza, i nostri esperti hanno le competenze per portare la tua azienda al livello successivo.",
+    "consulting": "Consulenza",
+    "consultingDesc": "Hai bisogno di aiuto con i finanziamenti? Lascia che ti aiutiamo con scelte audaci e decisioni perspicaci."
+  },
+  "about": {
+    "title": "Informazioni su Knudsen & Berg",
+    "text": "Knudsen & Berg è stata fondata nel 2012 da Jens Knudsen e Øyvind Berg. Dal 2012 abbiamo aiutato aziende di tutte le dimensioni ad adattarsi alle transizioni del settore."
+  },
+  "career": { "title": "Carriera", "noOpenings": "Nessuna posizione aperta al momento." },
+  "blog": { "title": "Blog", "readMore": "Leggi di più", "published": "Pubblicato" },
+  "footer": { "rights": "Tutti i diritti riservati" }
+}

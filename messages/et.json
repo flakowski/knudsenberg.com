@@ -1,0 +1,19 @@
+{
+  "nav": { "home": "Avaleht", "blog": "Blogi", "about": "Meist", "career": "Karjäär" },
+  "hero": { "tagline": "Loome väärtust aktiivse omandiõiguse kaudu", "whatWeDo": "Mida me teeme?", "exceed": "Me ületame teie ootused" },
+  "services": {
+    "strategic": "Strateegiline planeerimine",
+    "strategicDesc": "Analüüsime turuvägesid, et püsida asjakohased ja konkurentsivõimelised finantsvaldkonna kiires tempos.",
+    "investment": "Pikaajaline ja vastutustundlik investeerimine",
+    "investmentDesc": "Paljude aastate kogemusega on meie ekspertidel oskused teie ettevõtte järgmisele tasemele viimiseks.",
+    "consulting": "Nõustamine",
+    "consultingDesc": "Kas vajate abi rahastamisega? Laske meil teid aidata julge valiku ja taiplike otsustega."
+  },
+  "about": {
+    "title": "Knudsen & Bergist",
+    "text": "Knudsen & Berg asutati 2012. aastal Jens Knudseni ja Øyvind Bergi poolt. Alates 2012. aastast oleme aidanud erineva suurusega ettevõtetel toimialasiiretega kohaneda."
+  },
+  "career": { "title": "Karjäär", "noOpenings": "Praegu avatud ametikohti pole." },
+  "blog": { "title": "Blogi", "readMore": "Loe edasi", "published": "Avaldatud" },
+  "footer": { "rights": "Kõik õigused kaitstud" }
+}

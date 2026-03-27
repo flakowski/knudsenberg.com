@@ -1,0 +1,19 @@
+{
+  "nav": { "home": "Etusivu", "blog": "Blogi", "about": "Meistä", "career": "Ura" },
+  "hero": { "tagline": "Luomme arvoa aktiivisen omistajuuden kautta", "whatWeDo": "Mitä teemme?", "exceed": "Ylitämme odotuksesi" },
+  "services": {
+    "strategic": "Strateginen suunnittelu",
+    "strategicDesc": "Analysoimme markkinavoimia pysyäksemme relevantteina ja kilpailukykyisinä rahoitusmaailman nopeatempoisessa ympäristössä.",
+    "investment": "Pitkäaikainen ja vastuullinen sijoittaminen",
+    "investmentDesc": "Vuosien kokemuksella asiantuntijamme voivat viedä yrityksesi seuraavalle tasolle.",
+    "consulting": "Konsultointipalvelut",
+    "consultingDesc": "Tarvitsetko apua rahoituksessa? Autamme sinua rohkeilla valinnoilla ja oivaltavalla päätöksenteolla."
+  },
+  "about": {
+    "title": "Tietoa Knudsen & Bergistä",
+    "text": "Knudsen & Berg perustettiin vuonna 2012 Jens Knudsenin ja Øyvind Bergin toimesta. Olemme auttaneet erikokoisia yrityksiä sopeutumaan toimialan muutoksiin pysyäkseen kilpailukykyisinä."
+  },
+  "career": { "title": "Ura", "noOpenings": "Ei avoimia työpaikkoja tällä hetkellä." },
+  "blog": { "title": "Blogi", "readMore": "Lue lisää", "published": "Julkaistu" },
+  "footer": { "rights": "Kaikki oikeudet pidätetään" }
+}

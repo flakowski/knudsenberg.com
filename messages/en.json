@@ -1,0 +1,19 @@
+{
+  "nav": { "home": "Home", "blog": "Blog", "about": "About us", "career": "Career" },
+  "hero": { "tagline": "We create value through active ownership", "whatWeDo": "What do we do?", "exceed": "We surpass your expectations" },
+  "services": {
+    "strategic": "Strategic planning",
+    "strategicDesc": "We analyze market forces to remain relevant and competitive in the fast-speed world of finance. We then use smart tools and global resources to understand the implications of each choice that our customers make.",
+    "investment": "Long-term and responsible investment",
+    "investmentDesc": "With many years of experience, our experts have the skills and knowledge to take your business to the next level. At Knudsen & Berg, we combine our insight and skills to transform processes and strategies for your company.",
+    "consulting": "Consultations",
+    "consultingDesc": "Do you need help with financing? Let us help you. Any organization can take incremental steps to move forward, but if you are going to build for the future in today's quickly changing environment, you need bold choices and insightful decision-making."
+  },
+  "about": {
+    "title": "About Knudsen & Berg",
+    "text": "Knudsen & Berg was started in 2012 by Jens Knudsen and Øyvind Berg. At Knudsen & Berg, we understand that change is not always easy. Since 2012, we've helped companies of all sizes respond to industry transitions in order to stay competitive. Our many years of experience have taught us to always make your company's success our priority."
+  },
+  "career": { "title": "Career", "noOpenings": "No job openings at the moment." },
+  "blog": { "title": "Blog", "readMore": "Read more", "published": "Published" },
+  "footer": { "rights": "All rights reserved" }
+}
